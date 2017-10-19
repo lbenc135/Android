@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setup_profile.xml",
+        "source": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\src\\main\\res\\layout\\fragment_setup_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_status.xml",
+        "source": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\src\\main\\res\\layout\\fragment_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\separator.xml",
+        "source": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\src\\main\\res\\layout\\separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app_restriction_enforcer.xml",
+        "source": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\src\\main\\res\\layout\\fragment_app_restriction_enforcer.xml"
+    },
+    {
+        "merged": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_real.xml",
+        "source": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\src\\main\\res\\layout\\activity_main_real.xml"
+    },
+    {
+        "merged": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_item_add.xml",
+        "source": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Admin\\AppRestrictionEnforcer\\Application\\src\\main\\res\\layout\\fragment_item_add.xml"
+    }
+]

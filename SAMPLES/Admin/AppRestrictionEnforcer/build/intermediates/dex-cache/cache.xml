@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_8e43a8733f6aa2eac082af63e57d353707480b46.jar" />
+    </item>
+    <item
+        jar="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_d66ef60fa1bd5b50c6b6edef027a7f3f51361556.jar" />
+    </item>
+    <item
+        jar="C:\Users\lbenc\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_8d27ddeb215e30885ea7d8a96dc27c1b599c0d82.jar" />
+    </item>
+    <item
+        jar="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_05888f9c75d0fe71e81db5d336113b60ec047780.jar" />
+    </item>
+    <item
+        jar="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.3.0_2ab1420c94d619a9f92d9c98cdf1fd154313b427.jar" />
+    </item>
+    <item
+        jar="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="C:\Users\lbenc\Documents\Documents\Programming\Android\SAMPLES\Admin\AppRestrictionEnforcer\Application\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.3.0_966fb2bde18f943f367b7ee06b66265291d8e704.jar" />
+    </item>
+
+</items>

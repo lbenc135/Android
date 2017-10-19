@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:onClick="calculate"
+        android:text="@string/btnCalc" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCalc"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/btnCalc"
+        android:onClick="clear"
+        android:text="@string/clear" />
+
+    <Spinner
+        android:id="@+id/spnSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/number2"
+        android:layout_below="@+id/number1"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnClear"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/Number2"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/number2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/Number1"
+        android:inputType="numberDecimal" />
+
+</RelativeLayout>

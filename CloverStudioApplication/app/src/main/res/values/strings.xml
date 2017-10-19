@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CloverStudioApplication</string>
+    <string name="enterNumber">Enter a number:</string>
+    <string name="numberConstraints" translatable="false">[100-10000]</string>
+    <string name="smallerNumber">Smaller:</string>
+    <string name="greaterNumber">Greater:</string>
+    <string name="calculateButton">Calculate</string>
+    <string name="noSuchNumber">No such number.</string>
+    <string name="speechNotSupported">Speech is not supported on this device.</string>
+    <string name="speechPrompt">Say a number</string>
+    <string name="errorEnterNumber">Please enter a number</string>
+    <string name="errorNoNumberHeard">Sorry, no number heard</string>
+    <string name="warningConstraintsDisregarded">Disregarding constraints I see, let\'s see if I can help anyway</string>
+    <string name="infoListening">Listening...</string>
+</resources>

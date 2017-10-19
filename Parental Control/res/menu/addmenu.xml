@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.licoforen.parentalcontrollauncher.MainActivity" >
+
+    <item
+        android:id="@+id/Wallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/wallpaper"/>
+    <item
+        android:id="@+id/Widgets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/widgets"/>
+    <item
+        android:id="@+id/Shortcut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/shortcut"/>
+    <item
+        android:id="@+id/Settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/action_settings"/>
+
+</menu>

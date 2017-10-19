@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceScreen android:title="Desktop" >
+        <PreferenceCategory android:title="Layout" >
+            <com.licoforen.parentalcontrollauncher.CustomViews.NumberPickerPref
+                android:key="numHomeRows"
+                android:title="Rows number" />
+            <com.licoforen.parentalcontrollauncher.CustomViews.NumberPickerPref
+                android:key="numHomeCols"
+                android:title="Columns number" />
+            <com.licoforen.parentalcontrollauncher.CustomViews.NumberPickerPref
+                android:key="homeScreens"
+                android:title="Number of home screens" />
+            <com.licoforen.parentalcontrollauncher.CustomViews.NumberPickerPref
+                android:key="defaultScreen"
+                android:title="Default home screen" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Scroll" >
+            <ListPreference
+                android:defaultValue="slide"
+                android:entries="@array/animation_entries"
+                android:entryValues="@array/animation_entry_values"
+                android:key="homeAnimation"
+                android:title="Scroll animation" />
+            <ListPreference
+                android:defaultValue="line"
+                android:entries="@array/pageind_entries"
+                android:entryValues="@array/pageind_entry_values"
+                android:key="homePageIndicator"
+                android:title="Page indicator" />
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="wallpaperScrolling"
+                android:title="Wallpaper scrolling" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Look" >
+            <ListPreference
+                android:defaultValue="none"
+                android:entries="@array/dockback_entries"
+                android:entryValues="@array/dockback_values"
+                android:key="dockBackground"
+                android:title="Dock background" />
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="homescrLabels"
+                android:title="Labels" />
+
+            <com.licoforen.parentalcontrollauncher.CustomViews.ColorPick
+                android:dependency="homescrLabels"
+                android:key="homeLblColor"
+                android:title="Label color" />
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:dependency="homescrLabels"
+                android:key="homescrShadows"
+                android:title="Label shadows" />
+
+            <ListPreference
+                android:defaultValue="auto"
+                android:entries="@array/orient_entries"
+                android:entryValues="@array/orient_entry_values"
+                android:key="homeOrientation"
+                android:title="Orientation" />
+
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="lockDesktop"
+                android:title="Lock desktop" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Drawer" >
+        <com.licoforen.parentalcontrollauncher.CustomViews.SeekbarPref
+            android:key="animLength"
+            android:title="Open/close length" />
+
+        <com.licoforen.parentalcontrollauncher.CustomViews.ColorPick
+            android:key="drawerColor"
+            android:title="Background" />
+        
+        <com.licoforen.parentalcontrollauncher.CustomViews.ColorPick
+            android:key="drawerLblColor"
+            android:title="Label color" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="drawerscrShadows"
+            android:title="Label shadows" />
+    </PreferenceScreen>
+
+    <Preference
+        android:key="parental_control"
+        android:persistent="false"
+        android:title="Parental Controls" />
+
+</PreferenceScreen>

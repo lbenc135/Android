@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <MultiSelectListPreference
+        android:defaultValue="@array/empty_array"
+        android:key="allowedApps"
+        android:title="Allowed apps" />
+    <MultiSelectListPreference
+        android:defaultValue="@array/empty_array"
+        android:key="allowedWidgets"
+        android:title="Allowed widgets" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="shortcutsAllowed"
+        android:title="Allow shortcuts" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="activityCheck"
+        android:title="Activity check" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="locTrack"
+        android:title="Location tracking" />
+
+    <ListPreference
+        android:defaultValue="3600000"
+        android:dependency="locTrack"
+        android:entries="@array/loc_entries"
+        android:entryValues="@array/loc_values"
+        android:key="locUpdate"
+        android:title="Location update frequency" />
+
+    <com.licoforen.parentalcontrollauncher.CustomViews.PasswordCheck
+        android:key="change_pass"
+        android:persistent="false"
+        android:title="Change password" />
+
+    <com.licoforen.parentalcontrollauncher.CustomViews.LogPref
+        android:key="activity_log"
+        android:persistent="false"
+        android:title="Activity log" />
+
+</PreferenceScreen>

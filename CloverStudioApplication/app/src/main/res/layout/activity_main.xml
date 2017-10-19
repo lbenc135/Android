@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.licoforen.cloverstudioapplication.MainActivity">
+
+
+    <TextView
+        android:id="@+id/lblEnterNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnCalculate"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnCalculate"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/enterNumber"
+        android:textAppearance="@android:style/TextAppearance.Holo" />
+
+    <TextView
+        android:id="@+id/lblConstraints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etNumber"
+        android:layout_alignEnd="@+id/etNumber"
+        android:layout_alignRight="@+id/etNumber"
+        android:text="@string/numberConstraints"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblEnterNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/etNumber"
+        android:layout_toEndOf="@+id/etNumber"
+        android:layout_toRightOf="@+id/etNumber"
+        android:onClick="btnSpeechRecognition"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:onClick="btnCalculateClick"
+        android:text="@string/calculateButton" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/btnCalculate"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="35dp"
+        android:background="@android:color/darker_gray" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/divider"
+        android:padding="15dp"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:padding="15dp">
+
+
+            <TextView
+                android:id="@+id/lblSmaller"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/smallerNumber"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Holo" />
+
+            <TextView
+                android:id="@+id/lblGreater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/greaterNumber"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Holo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtNumberSmaller"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Holo"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/txtNumberGreater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textAppearance="@android:style/TextAppearance.Holo"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp">
+
+
+            <TextView
+                android:id="@+id/lblMessages"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

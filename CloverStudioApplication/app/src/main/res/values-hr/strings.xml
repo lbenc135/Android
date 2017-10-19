@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CloverStudioApplication</string>
+    <string name="enterNumber">Unesi broj:</string>
+    <string name="greaterNumber">Veći:</string>
+    <string name="smallerNumber">Manji:</string>
+    <string name="calculateButton">Izračunaj</string>
+    <string name="noSuchNumber">Nema takvog broja.</string>
+    <string name="speechNotSupported">Unos govorom nije moguć na ovom uređaju.</string>
+    <string name="speechPrompt">Reci neki broj</string>
+    <string name="infoListening">Slušam...</string>
+    <string name="errorNoNumberHeard">Oprosti, nisam čuo broj</string>
+    <string name="errorEnterNumber">Molim unesi broj</string>
+    <string name="warningConstraintsDisregarded">Zanemarivanje restrikciji, da vidimo mogu li svejedno pomoći</string>
+</resources>

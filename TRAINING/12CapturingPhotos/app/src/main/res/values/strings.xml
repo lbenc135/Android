@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">12CapturingPhotos</string>
+    <string name="taken_image">Image taken with camera.</string>
+    <string name="title_activity_take_picture">TakePictureActivity</string>
+</resources>

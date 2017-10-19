@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.licoforen.apitestproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.licoforen.apitestproject.AndroidBasicsStarter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="Life Cycle Test"
+					android:name="com.licoforen.androidgames.LifeCycleTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Single Touch Test"
+					android:name="com.licoforen.androidgames.SingleTouchTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Multi Touch Test"
+					android:name="com.licoforen.androidgames.MultiTouchTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Key Test"
+					android:name="com.licoforen.androidgames.KeyTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Accelerometer Test"
+					android:name="com.licoforen.androidgames.AccelerometerTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Assets Test"
+					android:name="com.licoforen.androidgames.AssetsTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="External Storage Test"
+					android:name="com.licoforen.androidgames.ExternalStorageTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="SoundPool Test"
+					android:name="com.licoforen.androidgames.SoundPoolTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="MediaPlayer Test"
+					android:name="com.licoforen.androidgames.MediaPlayerTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Fullscreen Test"
+					android:name="com.licoforen.androidgames.FullScreenTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="RenderView Test"
+					android:name="com.licoforen.androidgames.RenderViewTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Shape Test"
+					android:name="com.licoforen.androidgames.ShapeTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Bitmap Test"
+					android:name="com.licoforen.androidgames.BitmapTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="Font Test"
+					android:name="com.licoforen.androidgames.FontTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:label="SurfaceView Test"
+					android:name="com.licoforen.androidgames.SurfaceViewTest"
+					android:configChanges="keyboard|keyboardHidden|orientation" />
+    </application>
+
+</manifest>

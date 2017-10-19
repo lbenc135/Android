@@ -1,0 +1,47 @@
+[
+    {
+        "outputFile": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Background\\JobScheduler\\Application\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Background\\JobScheduler\\Application\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 806,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 938
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 64,
+                    "endOffset": 252
+                },
+                "from": {
+                    "file": "C:\\Users\\lbenc\\Documents\\Documents\\Programming\\Android\\SAMPLES\\Background\\JobScheduler\\Application\\src\\main\\res\\values-v11\\template-styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 650,
+                        "endColumn": 65,
+                        "endOffset": 711
+                    }
+                }
+            }
+        ]
+    }
+]
